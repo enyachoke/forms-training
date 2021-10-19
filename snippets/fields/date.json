@@ -1,0 +1,20 @@
+{
+    "label": "Return to clinic date",
+    "type": "obs",
+    "required": "true",
+    "questionOptions": {
+        "concept": "a8a666ba-1350-11df-a1f1-0026b9348838",
+        "rendering": "date",
+        "weeksList": [
+            2,
+            4,
+            9,
+            13,
+            26,
+            52,
+            104,
+            156
+        ]
+    },
+    "validators": []
+}

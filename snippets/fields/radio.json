@@ -1,0 +1,31 @@
+{
+    "label": "Type of care:",
+    "type": "obs",
+    "id": "careType",
+    "questionOptions": {
+        "concept": "45389fad-ecb2-4346-aaad-053215081f5e",
+        "rendering": "radio",
+        "answers": [
+            {
+                "concept": "b412ae76-4ab4-4d00-800e-bd8d167769e1",
+                "label": "HIV"
+            },
+            {
+                "concept": "6b15e4fa-6897-4d69-adcf-5908abade719",
+                "label": "TB"
+            },
+            {
+                "concept": "a8a17d80-1350-11df-a1f1-0026b9348838",
+                "label": "PMTCT"
+            },
+            {
+                "concept": "12550258-d797-43d9-a282-e35908c33fe4",
+                "label": "Resistance"
+            },
+            {
+                "concept": "a8aaf3e2-1350-11df-a1f1-0026b9348838",
+                "label": "Other"
+            }
+        ]
+    }
+}

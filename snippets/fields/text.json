@@ -1,0 +1,13 @@
+{
+    "label": "Other treatment methods not listed above",
+    "type": "obs",
+    "id": "otherTreatmentMethod",
+    "questionOptions": {
+      "concept": "dc15823d-e6ec-48fc-beac-bc4239d9bfcb",
+      "rendering": "text"
+    },
+    "validators": [],
+    "hide": {
+      "hideWhenExpression": ""
+    }
+  }

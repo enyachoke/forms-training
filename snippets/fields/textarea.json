@@ -1,0 +1,22 @@
+{
+    "label": "Assessment",
+    "sections": [
+      {
+        "label": "Assessment Notes",
+        "isExpanded": "true",
+        "questions": [
+          {
+            "label": "Please enter your assessment below",
+            "type": "obs",
+            "id": "assessmentNotes",
+            "default": "",
+            "questionOptions": {
+              "concept": "23f710cc-7f9c-4255-9b6b-c3e240215dba",
+              "rendering": "textarea",
+              "rows": 10
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+    "label": "Number of pregnancies had (gravida)",
+    "type": "obs",
+    "id": "noPregnancy",
+    "historicalExpression": "",
+    "questionOptions": {
+        "concept": "a8aaf59a-1350-11df-a1f1-0026b9348838",
+        "rendering": "number",
+        "max": "50",
+        "min": "0"
+    },
+    "validators": [],
+    "hide": {
+        "hideWhenExpression": ""
+    }
+}

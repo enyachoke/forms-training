@@ -1,0 +1,40 @@
+{
+    "label": "Encounter Info",
+    "isExpanded": "true",
+    "questions": [
+        {
+            "label": "Visit date",
+            "type": "encounterDatetime",
+            "required": "true",
+            "default": "",
+            "id": "encDate",
+            "questionOptions": {
+                "rendering": "date"
+            },
+            "validators": [
+                {
+                    "type": "date"
+                }
+            ]
+        },
+        {
+            "type": "encounterProvider",
+            "label": "Provider",
+            "id": "provider",
+            "required": "true",
+            "default": "",
+            "questionOptions": {
+                "rendering": "ui-select-extended"
+            }
+        },
+        {
+            "type": "encounterLocation",
+            "label": "Facility name",
+            "id": "location",
+            "required": "true",
+            "questionOptions": {
+                "rendering": "ui-select-extended"
+            }
+        }
+    ]
+}

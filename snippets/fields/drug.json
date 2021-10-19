@@ -1,0 +1,24 @@
+{
+    "label": "Additional Medication Orders",
+    "questions": [
+      {
+        "type": "obsGroup",
+        "label": "Additional medication orders",
+        "questionOptions": {
+          "rendering": "repeating",
+          "concept": "a8a0654e-1350-11df-a1f1-0026b9348838"
+        },
+        "questions": [
+          {
+            "label": "Drug",
+            "questionOptions": {
+              "concept": "a8a060c6-1350-11df-a1f1-0026b9348838",
+              "rendering": "drug"
+            },
+            "type": "obs",
+            "validators": []
+          }
+        ]
+      }
+    ]
+  }

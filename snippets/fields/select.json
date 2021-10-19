@@ -1,0 +1,39 @@
+{
+    "label": "Pre-Cancer Treatment",
+    "isExpanded": "true",
+    "questions": [
+        {
+            "label": "Treatment method",
+            "type": "obs",
+            "id": "preCancerTreatment",
+            "required": "true",
+            "questionOptions": {
+                "concept": "94f54710-6ee0-45cd-ad5f-a990fcb47bc1",
+                "rendering": "select",
+                "answers": [
+                    {
+                        "concept": "a899e0ac-1350-11df-a1f1-0026b9348838",
+                        "label": "None"
+                    },
+                    {
+                        "concept": "dcb72b0b-c1cb-4f32-aa82-e8f7b74cc16e",
+                        "label": "Cryotherapy"
+                    },
+                    {
+                        "concept": "b6fccd82-c622-4c3e-9563-39899e709b3b",
+                        "label": "LEEP"
+                    },
+                    {
+                        "concept": "a829a2a1-5ea5-400e-a3a5-2069f6d1e05b",
+                        "label": "Thermocoagulation"
+                    },
+                    {
+                        "concept": "a89ebb04-1350-11df-a1f1-0026b9348838",
+                        "label": "Other treatment methods e.g. Hysterectomy, Cone biopsy"
+                    }
+                ]
+            },
+            "validators": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "label": "At which AMPATH facility are you receiving HIV care?",
+    "id": "careLocation",
+    "type": "personAttribute",
+    "questionOptions": {
+      "rendering": "ui-select-extended",
+      "attributeType": "8d87236c-c2cc-11de-8d13-0010c6dffd0f"
+    },
+    "validators": [
+    ],
+    "hide": {
+      "hideWhenExpression": ""
+    }
+  }

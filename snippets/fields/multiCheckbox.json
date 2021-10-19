@@ -1,0 +1,25 @@
+{
+    "label": "Screening method",
+    "type": "obs",
+    "id": "screeningMethod",
+    "required": "true",
+    "questionOptions": {
+        "rendering": "multiCheckbox",
+        "concept": "6750ddf9-bd32-4d8f-bee0-b5fc192a20a3",
+        "answers": [
+            {
+                "concept": "b6d3b6cf-030e-4e35-8a91-7e3efe7ecd65",
+                "label": "VIA or VIA/VILI"
+            },
+            {
+                "concept": "a89b2dcc-1350-11df-a1f1-0026b9348838",
+                "label": "HPV"
+            },
+            {
+                "concept": "a8983ff4-1350-11df-a1f1-0026b9348838",
+                "label": "Pap smear"
+            }
+        ]
+    },
+    "validators": []
+}
